@@ -15,3 +15,14 @@ sudo chown -R $USER:$USER /usr/local/apache-hive-3.1.2-bin
 # hive 심볼릭 링크 생성
 cd /usr/local && sudo ln -s apache-hive-3.1.2-bin hive
 
+
+cd ~/downloads
+
+# mysql connector 다운로드
+wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.27.tar.gz
+
+# 압축풀기
+tar xvfz mysql-connector-java-5.1.27.tar.gz
+
+# 하이브 lib 디렉토리로 jar 파일 복사
+cp mysql-connector-java-5.1.27/*.jar /usr/local/hive/lib
