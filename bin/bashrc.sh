@@ -11,4 +11,5 @@ sudo echo 'export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop' >> ~/.bashrc
 sudo echo 'export HADOOP_YARN_HOME=$HADOOP_HOME' >> ~/.bashrc
 sudo echo 'export HADOOP_MAPRED_HOME=$HADOOP_HOME' >> ~/.bashrc
 
-
+# Hive
+echo 'export HIVE_HOME=/usr/local/hive' >> ~/.bashrc
