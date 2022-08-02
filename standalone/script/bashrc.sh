@@ -12,4 +12,20 @@ sudo echo 'export HADOOP_YARN_HOME=$HADOOP_HOME' >> ~/.bashrc
 sudo echo 'export HADOOP_MAPRED_HOME=$HADOOP_HOME' >> ~/.bashrc
 
 # Hive
-echo 'export HIVE_HOME=/usr/local/hive' >> ~/.bashrc
+sudo echo 'export HIVE_HOME=/usr/local/hive' >> ~/.bashrc
+
+# Spark
+sudo echo 'export SPARK_HOME=/usr/local/spark' >> ~/.bashrc
+
+# Python & PySpark
+sudo echo 'export PYTHONPATH=/usr/bin/python3' >> ~/.bashrc
+sudo echo 'export PYSPARK_PYTHON=/usr/bin/python3' >> ~/.bashrc
+
+# Zeppelin
+sudo echo 'export ZEPPELIN_HOME=/usr/local/zeppelin' >> ~/.bashrc
+
+
+# 적용
+source ~/.bashrc
+
+
