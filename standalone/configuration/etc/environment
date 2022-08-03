@@ -1,0 +1,7 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/usr/local/hadoop/bin:/usr/local/hadoop/sbin:/usr/local/hive/bin:/usr/local/spark/bin:/usr/local/spark/sbin:/usr/local/zeppelin/bin"
+
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+HADOOP_HOME="/usr/local/hadoop"
+HIVE_HOME="/usr/local/hive"
+SPARK_HOME="/usr/local/spark"
+ZEPPELIN_HOME="/usr/local/zeppelin"
