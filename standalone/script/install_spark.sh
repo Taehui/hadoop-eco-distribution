@@ -23,3 +23,6 @@ python3 -V
 
 # PySpark 설치
 sudo pip3 install pyspark findspark
+
+# 설정파일 복사
+cp -r ../configuration/spark/conf/* /usr/local/spark/conf
