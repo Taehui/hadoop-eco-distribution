@@ -25,4 +25,10 @@ python3 -V
 sudo pip3 install pyspark findspark
 
 # 설정파일 복사
-cp -r ../configuration/spark/conf/* /usr/local/spark/conf
+cp -r ~/hadoop-eco-installation/standalone/configuration/spark/conf/ /usr/local/spark/conf
+
+source /etc/environment
+source ~/.bashrc
+
+
+sudo mkdir -p /usr/local/spark/logs && sudo chown -R $USER:$USER /usr/local/spark/
