@@ -16,5 +16,9 @@ sudo chown -R $USER:$USER /usr/local/hadoop-3.2.3
 cd /usr/local && sudo ln -s hadoop-3.2.3 hadoop
 
 # 설정파일 복사
-cp -r ../configuration/hadoop/conf/* /usr/local/hadoop/etc/hadoop
+cp -r ~/hadoop-eco-installation/standalone/configuration/hadoop/conf/* /usr/local/hadoop/etc/hadoop
+
+source /etc/environment
+source ~/.bashrc
+
 
