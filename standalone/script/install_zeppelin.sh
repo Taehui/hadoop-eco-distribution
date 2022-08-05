@@ -14,3 +14,6 @@ cd /usr/local && sudo ln -s /usr/local/zeppelin-0.10.1-bin-all/ zeppelin
 
 # Zeppelin 디렉토리 소유자 변경
 sudo chown -R $USER:$USER /usr/local/zeppelin-0.10.1-bin-all/
+
+# 설정파일 복사
+cp -r ../configuration/zeppelin/conf/* /usr/local/zeppelin/conf
