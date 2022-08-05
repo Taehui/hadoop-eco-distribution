@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # /etc/environment.sh
-sudo cp ~/hadoop-eco-distribution/standalone/configuration/etc/environment /etc
+sudo cp ~/hadoop-eco-installation/standalone/configuration/etc/environment /etc
 source /etc/environment
 
 # JAVA
