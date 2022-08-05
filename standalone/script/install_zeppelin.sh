@@ -21,3 +21,9 @@ source ~/.bashrc
 
 # 설정파일 복사
 cp -r ~/hadoop-eco-installation/standalone/configuration/zeppelin/conf/* /usr/local/zeppelin/conf
+
+
+cd /usr/local/zeppelin/interpreter/jdbc/
+wget https://repo.maven.apache.org/maven2/org/apache/hive/hive-jdbc/1.2.1/hive-jdbc-1.2.1.jar
+cp /usr/local/hadoop/share/hadoop/common/hadoop-common-3.2.3.jar /usr/local/zeppelin/interpreter/jdbc
+
